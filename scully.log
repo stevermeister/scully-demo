@@ -1,0 +1,41 @@
+No configuration for route "/cats/:catId" found. Skipping
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------The plugin 'catsPlugin' needs to return handledRoutes with a route that starts with '/'. The route {"route":"cats/3"} is invalid.The plugin 'catsPlugin' needs to return handledRoutes with a route that starts with '/'. The route {"route":"cats/1"} is invalid.The plugin 'catsPlugin' needs to return handledRoutes with a route that starts with '/'. The route {"route":"cats/2"} is invalid.
+
+
+
+Puppeteer error while rendering "cats/3"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/2"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/1"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/3"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/2"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/1"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/3"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/2"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "cats/1"
+Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+ we will retry rendering this page up to 3 times.
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
