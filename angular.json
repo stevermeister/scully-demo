@@ -105,5 +105,8 @@
       }
     }
   },
-  "defaultProject": "scully-demo"
+  "defaultProject": "scully-demo",
+  "cli": {
+    "analytics": false
+  }
 }
