@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <li routerLink="cats">Cats</li>
       <li routerLink="settings">Settings</li>
       <li routerLink="about">About</li>
+      <li routerLink="blog">Blog</li>
     </ul>
   `,
   styles: [

@@ -1,0 +1,5 @@
+[
+    {"route": "/cats/1"},
+    {"route": "/cats/2"},
+    {"route": "/cats/3"}
+]

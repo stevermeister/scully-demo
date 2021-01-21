@@ -15,6 +15,12 @@ export const config: ScullyConfig = {
   projectName: "scully-demo",
   outDir: './dist/static',
   routes: {
+    '/blog/:slug': {
+      type: 'contentFolder',
+      slug: {
+        folder: "./blog"
+      }
+    },
     "/cats/:catId": {
       type: 'catsPlugin'
     }
