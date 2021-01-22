@@ -1,0 +1,16 @@
+No configuration for route "/cats/:catId" found. Skipping
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
+----------------------------------
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/2021-01-21-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/2021-01-21-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      

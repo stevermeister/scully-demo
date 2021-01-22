@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'settings', component: SettingsComponent },
   { path: 'cats', component: CatListComponent },
   { path: 'cats/:catId', component: CatComponent },
+  { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) },
 ];
 
 @NgModule({
